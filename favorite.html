@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Meal Page</title>
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+<body> 
+      
+      <div class="container-fluid fixed-top fav-div bg-dark bg-opacity-75 d-flex align-items-center justify-content-center">
+        <h1 class="text-center h1 fw-bold text-warning">My Favourite Meals</h1>
+      </div>
+
+      <!-- Fav Meals -->
+      <div class="container-fluid">
+        <div class="row row-gap-5" id="favorite-list">
+
+        </div>
+      </div>
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+          <!-- <h2 class = "fav-recipe-title">Meals Name Here</h2>
+          <p class = "fav-recipe-category">Category Name</p>
+          <div class = "fav-recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+          <div class = "fav-recipe-meal-img">
+            <img src = "food.jpg" alt = "">
+          </div>
+          <div class = "fav-recipe-link">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div> -->
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+      <script src="fav.js"></script>
+      <script>
+        showFavMealList();
+      </script>
+</body>
+</html>
